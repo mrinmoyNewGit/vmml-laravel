@@ -13,14 +13,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+     <!-- Libraries Stylesheet -->
+    <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <style>
         body,
         html {
@@ -83,7 +84,7 @@
             </div>
             <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5"
                 style="background: rgba(0, 0, 0, 0.3) !important">
-                <a href="index-with-video-overlay.html" class="navbar-brand ps-5 me-0">
+                <a href="{{ url('/') }}" class="navbar-brand ps-5 me-0">
                     <img src="img/logo.png" alt="VMML Logo" height="50">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
@@ -92,11 +93,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0">
-                        <a href="index-with-video-overlay.html" class="nav-item nav-link text-white active">Home</a>
-                        <a href="about.html" class="nav-item nav-link text-white">About</a>
-                        <a href="service.html" class="nav-item nav-link text-white">Services</a>
-                        <a href="project.html" class="nav-item nav-link text-white">Projects</a>
-                        <a href="contact.html" class="nav-item nav-link text-white">Contact</a>
+                        <a href="{{ url('/') }}" class="nav-item nav-link text-white active">Home</a>
+                        <a href="{{ url('/about') }}" class="nav-item nav-link text-white">About</a>
+                        <a href="{{ url('/service') }}" class="nav-item nav-link text-white">Services</a>
+                        <a href="{{ url('/projects') }}" class="nav-item nav-link text-white">Projects</a>
+                        <a href="{{ url('/contact') }}" class="nav-item nav-link text-white">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -728,17 +729,16 @@
             class="bi bi-arrow-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
+    <script src="{{ asset('lib/easing/easing.min.js') }}"></script>
+    <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
+    <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 
 
     <!-- Bootstrap JS -->
