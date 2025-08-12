@@ -373,8 +373,9 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                                    lorem sed diam stet diam sed stet.</p>
+                                <p class="text-white mb-0">Silico Manganese is an alloy composed primarily of manganese, 
+                                silicon, and iron, widely used in steelmaking. 
+                                It acts as a deoxidizer and improves the mechanical properties of steel..</p>
                             </div>
                         </div>
                         <a class="btn btn-light" href="">Read More</a>
@@ -394,8 +395,8 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                                    lorem sed diam stet diam sed stet.</p>
+                                <p class="text-white mb-0">Ferro Manganese is an iron-manganese alloy essential in steelmaking for deoxidizing and 
+                                desulfurizing molten steel. It improves tensile strength, toughness, and wear resistance. .</p>
                             </div>
                         </div>
                         <a class="btn btn-light" href="">Read More</a>
@@ -415,8 +416,9 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                                    lorem sed diam stet diam sed stet.</p>
+                                <p class="text-white mb-0">Ferro Chrome is an alloy of chromium and iron used primarily in stainless steel 
+                                production. It imparts corrosion resistance, hardness, 
+                                and high-temperature strength to steel..</p>
                             </div>
                         </div>
                         <a class="btn btn-light" href="">Read More</a>
@@ -436,8 +438,8 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                                    lorem sed diam stet diam sed stet.</p>
+                                <p class="text-white mb-0">Ferro Silicon is an alloy of iron and silicon, widely used as a deoxidizer, inoculant, 
+                                and alloying element in steel and cast iron production. It helps remove oxygen from molten steel..</p>
                             </div>
                         </div>
                         <a class="btn btn-light" href="">Read More</a>
