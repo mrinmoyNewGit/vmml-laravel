@@ -8,14 +8,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="{{ url('/') }}" class="nav-item nav-link">Home</a>
-                <a href="{{ url('/about') }}" class="nav-item nav-link ">About</a>
-                <a href="{{ url('/service') }}" class="nav-item nav-link active">Services</a>
-                <a href="{{ url('/projects') }}" class="nav-item nav-link">Projects</a>
-                <a href="{{ url('/contact') }}" class="nav-item nav-link">Contact</a>
+                <a href="{{ url('/') }}" class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">Home</a>
+                <a href="{{ url('about') }}" class="nav-item nav-link {{ request()->is('about') ? 'active' : '' }}">About</a>
+                <a href="{{ url('service') }}" class="nav-item nav-link {{ request()->is('service') ? 'active' : '' }}">Services</a>
+                <a href="{{ url('process') }}" class="nav-item nav-link {{ request()->is('process') ? 'active' : '' }}">Process</a>
+                <a href="{{ url('contact') }}" class="nav-item nav-link {{ request()->is('contact') ? 'active' : '' }}">Contact</a>
             </div>
         </div>
+
     </nav>
     <!-- Navbar End -->
-
-

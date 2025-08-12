@@ -96,7 +96,7 @@
                         <a href="{{ url('/') }}" class="nav-item nav-link text-white active">Home</a>
                         <a href="{{ url('/about') }}" class="nav-item nav-link text-white">About</a>
                         <a href="{{ url('/service') }}" class="nav-item nav-link text-white">Services</a>
-                        <a href="{{ url('/projects') }}" class="nav-item nav-link text-white">Projects</a>
+                        <a href="{{ url('/process') }}" class="nav-item nav-link text-white">Process</a>
                         <a href="{{ url('/contact') }}" class="nav-item nav-link text-white">Contact</a>
                     </div>
                 </div>

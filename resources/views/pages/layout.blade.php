@@ -30,6 +30,7 @@
     <!-- Template Stylesheet -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
+
 <body>
 
     {{-- Header --}}
@@ -39,14 +40,14 @@
     @include('includes.nav')
 
     {{-- Main Content --}}
-    
-        @yield('content')
-   
+
+    @yield('content')
+
 
     {{-- Footer --}}
     @include('includes.footer')
 
-  <!-- JavaScript Libraries -->
+    <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
@@ -57,5 +58,21 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+            navLinks.forEach(link => {
+                link.addEventListener("click", function() {
+                    // Remove active class from all links
+                    navLinks.forEach(l => l.classList.remove("active"));
+                    // Add active to the clicked link
+                    this.classList.add("active");
+                });
+            });
+        });
+    </script>
+
 </body>
+
 </html>
