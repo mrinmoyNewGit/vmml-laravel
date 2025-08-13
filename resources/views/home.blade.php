@@ -56,7 +56,7 @@
     <!-- Video Banner -->
     <div class="video-banner position-relative">
         <video autoplay muted loop playsinline>
-            <source src="video/mining-indusrty.mp4" type="video/mp4" style="background: rgba(0, 0, 0, 0.5);">
+            <source src="{{ asset('video/mining-indusrty.mp4') }}" type="video/mp4" style="background: rgba(0, 0, 0, 0.5);">
             Your browser does not support the video tag.
         </video>
         <div class="video-dark-overlay"></div>
@@ -86,7 +86,7 @@
             <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5"
                 style="background: rgba(0, 0, 0, 0.3) !important">
                 <a href="{{ url('/') }}" class="navbar-brand ps-5 me-0">
-                    <img src="img/logo.png" alt="VMML Logo" height="50">
+                    <img src="{{ asset('img/logo.png') }}" alt="VMML Logo" height="50">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -131,10 +131,10 @@
                 <div class="col-lg-6">
                     <div class="row gx-4 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid bordered-img" src="img/about-1.jpg" alt="About 1">
+                            <img class="img-fluid bordered-img" src="{{ asset('img/about-1.jpg') }}" alt="About 1">
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid bordered-img" src="img/about-2.jpg" alt="About 2">
+                            <img class="img-fluid bordered-img" src="{{ asset('img/about-2.jpg') }}" alt="About 2">
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
                 <!-- Left Side: Image + Video -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative me-lg-4">
-                        <img class="img-fluid w-100" src="img/feature.jpg" alt="Iron Ore Mining" style="height:785px">
+                        <img class="img-fluid w-100" src="{{ asset('img/feature.jpg') }}" alt="Iron Ore Mining" style="height:785px">
                         <span
                             class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
                             style="width: 120px; height: 120px;"></span>
@@ -363,9 +363,9 @@
             <div class="row gy-5 gx-4">
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/service-1.jpg') }}" alt="">
                         <div class="service-img">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('img/service-1.jpg') }}" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -379,15 +379,15 @@
                                     It acts as a deoxidizer and improves the mechanical properties of steel..</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="{{ url('about') }}">Read More</a>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
-                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/service-2.jpg') }}" alt="">
                         <div class="service-img">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('img/service-2.jpg') }}" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -400,15 +400,15 @@
                                     desulfurizing molten steel. It improves tensile strength, toughness, and wear resistance. .</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="{{ url('service') }}">Read More</a>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item">
-                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/service-3.jpg') }}" alt="">
                         <div class="service-img">
-                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('img/service-3.jpg') }}" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -422,15 +422,15 @@
                                     and high-temperature strength to steel..</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="{{ url('service') }}">Read More</a>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item">
-                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/service-2.jpg') }}" alt="">
                         <div class="service-img">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('img/service-2.jpg') }}" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -443,7 +443,7 @@
                                     and alloying element in steel and cast iron production. It helps remove oxygen from molten steel..</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+                        <a class="btn btn-light" href="{{ url('service') }}">Read More</a>
                     </div>
                 </div>
             </div>
@@ -466,49 +466,49 @@
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-1.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('img/project-1.jpg') }}" alt="">
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Pathak Group (Katni)</h5>
                     <h6 class="text-primary mb-0">Capacity: 80,000 M/T</h6>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-2.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('img/project-2.jpg') }}" alt="">
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Pacific Iron Manufacturing</h5>
                     <h6 class="text-primary mb-0">Capacity: 60,000 M/T</h6>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-3.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('img/project-3.jpg') }}" alt="">
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Geomin Industries Ltd</h5>
                     <h6 class="text-primary mb-0">Capacity: 50,000 M/T</h6>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-4.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('img/project-4.jpg') }}" alt="">
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Jain Mines Pvt. Ltd</h5>
                     <h6 class="text-primary mb-0">Capacity: 45,000 M/T</h6>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-5.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('img/project-5.jpg') }}" alt="">
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Sagar Stone Industries</h5>
                     <h6 class="text-primary mb-0">Capacity: 30,000 M/T</h6>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-6.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('img/project-6.jpg') }}" alt="">
                 <div class="project-title">
                     <h5 class="text-primary mb-0">4 Man Industries Pvt. Ltd</h5>
                     <h6 class="text-primary mb-0">Capacity: 25,000 M/T</h6>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="img/project-6.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('img/project-6.jpg') }}" alt="">
                 <div class="project-title">
                     <h5 class="text-primary mb-0">Jakhodia Mineral</h5>
                     <h6 class="text-primary mb-0">Capacity: 20,000 M/T</h6>
@@ -518,90 +518,6 @@
 
     </div>
     <!-- Project End -->
-
-
-    <!-- Team Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
-                <h1 class="display-6 mb-5">Dedicated Team Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style="height: 90px;">
-                                <h5>Rob Miller</h5>
-                                <span class="text-primary">CEO & Founder</span>
-                                <div class="team-social">
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style="height: 90px;">
-                                <h5>Adam Crew</h5>
-                                <span class="text-primary">Project Manager</span>
-                                <div class="team-social">
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style="height: 90px;">
-                                <h5>Peter Farel</h5>
-                                <span class="text-primary">Engineer</span>
-                                <div class="team-social">
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Team End -->
-
 
     <!-- Testimonial Start -->
     @include('includes.testimonial')
