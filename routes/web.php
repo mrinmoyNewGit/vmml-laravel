@@ -28,3 +28,6 @@ Route::get('/process', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+use App\Http\Controllers\ContactController;
+
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
