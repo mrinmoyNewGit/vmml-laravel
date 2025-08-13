@@ -3,8 +3,8 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Our Office</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <h5 class="text-white mb-4">Registered Address- Vishal Metal & Mining Ltd</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>2E,2nd Floor,Gajraj Chamber 86/B/2 Topsia Road(South), KOLKATA, West Bengal, India, 700046</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-3">
@@ -16,11 +16,11 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="{{ url('about') }}">About</a>
+                    <a class="btn btn-link" href="{{ url('service') }}">Services</a>
+                    <a class="btn btn-link" href="{{ url('process') }}">Process</a>
+                    <a class="btn btn-link" href="{{ url('contact') }}">Contact</a>
+                    <a class="btn btn-link" href="">Career</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Business Hours</h5>
@@ -31,14 +31,14 @@
                     <p class="mb-1">Sunday</p>
                     <h6 class="text-light">Closed</h6>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Newsletter</h5>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative w-100">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@
         <div class="container text-center">
             <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">Your Site Name</a>, All Right Reserved.</p>
             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+            <p class="mb-0">Designed By <a class="fw-semi-bold" href="">Mrinmoy</a></p>
         </div>
     </div>
     <!-- Copyright End -->

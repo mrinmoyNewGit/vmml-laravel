@@ -43,6 +43,8 @@
 
     @yield('content')
 
+    {{-- testimonials --}}
+    @include('includes.testimonial')
 
     {{-- Footer --}}
     @include('includes.footer')
