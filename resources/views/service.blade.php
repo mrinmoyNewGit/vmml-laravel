@@ -1,6 +1,6 @@
 @extends('pages.layout')
 
-@section('title', 'Home Page')
+@section('title', 'Services')
 
 @section('content')
 <!-- Page Header Start -->

@@ -26,5 +26,5 @@ Route::get('/process', function () {
     return view('process');
 });
 Route::get('/contact', function () {
-    return view('service');
+    return view('contact');
 });
